@@ -54,7 +54,7 @@ nav {
   flex-direction: column;
   gap: 16px;
   text-decoration: none;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 
 .memory small {
@@ -86,13 +86,16 @@ nav {
   font-size: 1.2rem;
   color: #bebebf;
   line-height: 28px;
-
 }
 
 .memory:hover img {
   transform: scale(1.1);
 }
 
+.barra{
+  border-bottom: 1px solid ;
+  margin-bottom: 32px;
+}
 aside {
   grid-area: profile;
   display: flex;
