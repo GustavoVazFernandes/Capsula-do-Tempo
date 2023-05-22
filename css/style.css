@@ -33,7 +33,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #121215;
   color: #eaeaea;
   font-family: "Roboto", sans-serif;
   display: grid;
@@ -132,10 +132,12 @@ aside span {
   font-size: 0.75rem;
   color: #9e9ea0;
 }
+
 @media (max-width: 768px) {
   :root {
     font-size: 14px;
   }
+
   body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.8fr;
