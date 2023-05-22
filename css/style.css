@@ -46,7 +46,7 @@ nav {
   padding: 64px;
   grid-area: timeline;
   overflow-y: scroll;
-  animation: entering 3s ease-in-out;
+  animation: entering 1s ease-in-out;
 }
 
 .memory {
@@ -58,7 +58,7 @@ nav {
 }
 
 .memory small {
-  color: #bebebf;
+  color: #c93939;
   font-size: 0.75rem;
 }
 
@@ -86,7 +86,7 @@ nav {
   font-size: 1.2rem;
   color: #bebebf;
   line-height: 28px;
-  text-align: justify;
+
 }
 
 .memory:hover img {
@@ -110,7 +110,7 @@ aside {
 }
 
 aside * {
-  animation: entering 4s ease-in-out;
+  animation: entering 1s ease-in-out;
 }
 
 .foto-perfil {
@@ -118,7 +118,7 @@ aside * {
   height: 160px;
   border-radius: 50%;
 
-  border: 3px solid transparent;
+  border: 4px solid transparent;
   background: linear-gradient(#850303, #c40f0f, red) padding-box,
     linear-gradient(260deg, #850303, #c40f0f, red) border-box;
 }
